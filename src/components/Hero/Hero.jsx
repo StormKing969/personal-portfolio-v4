@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../../styles";
-import { ComputersCanvas } from "../Canvas";
+import { ComputersCanvas } from "../canvas";
 
 const Hero = () => {
     return (
