@@ -33,7 +33,8 @@ import mongodb from "./tech_imgs/mongodb.png";
 import nodejs from "./tech_imgs/nodejs.png";
 import react_js from "./tech_imgs/react_js.png";
 import tailwind from "./tech_imgs/tailwind.png";
-import three_js from "./tech_imgs/three_js.svg";
+// import three_js from "./tech_imgs/three_js.svg";
+import three_js from "./tech_imgs/three_js.png";
 import typescript from "./tech_imgs/typescript.png";
 
 // From testimonial_imgs
