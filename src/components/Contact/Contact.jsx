@@ -2,10 +2,10 @@ import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
-import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import { styles } from "../../styles";
+import { EarthCanvas } from "../Canvas";
+import { SectionWrapper } from "../../hoc";
+import { slideIn } from "../../utils/motion";
 
 const Contact = () => {
     const formRef = useRef();
@@ -28,7 +28,7 @@ const Contact = () => {
                 "template_b0e1l2b",
                 {
                     from_name: form.name,
-                    to_name: "Lijith",
+                    to_name: "Sajana",
                     from_email: form.email,
                     to_email: "stormkings969@gmail.com",
                     // to_email: "lc2015us@gmail.com",

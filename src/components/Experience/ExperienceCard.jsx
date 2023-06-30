@@ -1,15 +1,5 @@
-import {
-    VerticalTimeline,
-    VerticalTimelineElement,
-} from "react-vertical-timeline-component";
-import { color, motion } from "framer-motion";
-
-import "react-vertical-timeline-component/style.min.css";
-
-import { styles } from "../styles";
-import { experiences } from "../constants";
-import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import PropTypes from "prop-types";
 
 const ExperienceCard = ({ experience }) => (
     <VerticalTimelineElement
@@ -52,23 +42,8 @@ const ExperienceCard = ({ experience }) => (
     </VerticalTimelineElement>
 );
 
-const Experience = () => {
-    return (
-        <>
-            <motion.div variants={textVariant()}>
-                <p className={styles.sectionSubText}>My Journey</p>
-                <h2 className={styles.sectionHeadText}>Work Experience</h2>
-            </motion.div>
-
-            <div className="mt-20 flex flex-col">
-                <VerticalTimeline>
-                    {experiences.map((experience, index) => (
-                        <ExperienceCard key={index} experience={experience} />
-                    ))}
-                </VerticalTimeline>
-            </div>
-        </>
-    );
+ExperienceCard.propTypes = {
+    experience: PropTypes.any,
 };
 
-export default SectionWrapper(Experience, "work");
+export default ExperienceCard;

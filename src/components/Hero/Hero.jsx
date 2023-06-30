@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
-import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { styles } from "../../styles";
+import { ComputersCanvas } from "../Canvas";
 
 const Hero = () => {
     return (
@@ -17,11 +17,10 @@ const Hero = () => {
                 <div>
                     <h1 className={`${styles.heroHeadText} text-white`}>
                         Salut, I&apos;m{" "}
-                        <span className="text-[#915eff]">Lijith</span>
+                        <span className="text-[#915eff]">Sajana</span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        An undergrad student at the University of Massachusetts
-                        Boston majoring in IT &amp; Economics
+                        A Software Developer who&apos;s always looking for a new challenge
                     </p>
                 </div>
             </div>
