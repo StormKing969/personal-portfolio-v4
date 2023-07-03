@@ -1,28 +1,28 @@
 import {
-    cvs,
-    gm,
-    umass_boston,
-    verbotics_ai,
     backend,
     camera,
     creator,
-    frontend,
     credit_card,
-    earth_planes,
-    ip_tracker,
     css,
+    cvs,
+    earth_planes,
     figma,
+    frontend,
     git,
+    gm,
     html,
+    ip_tracker,
     javascript,
     mongodb,
     nodejs,
     react_js,
     tailwind,
-    three_js,
-    typescript,
     testimonial01,
     testimonial02,
+    three_js,
+    typescript,
+    umass_boston,
+    verbotics_ai,
 } from "../assets";
 
 export const navLinks = [
@@ -178,8 +178,7 @@ const experiences = [
 
 const testimonials = [
     {
-        testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        testimonial: "The best person I were met :)",
         name: "Daniel Werminghausen",
         designation: "Software Engineer",
         company: "Bonterra",
@@ -187,7 +186,7 @@ const testimonials = [
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
+            "I have worked with Saj for 7 years and I have not seen anyone else with the level of passion, dedication, and skill that Saj has. I think he is an important asset in any company, software or otherwise.",
         name: "Bryon Ferrer",
         designation: "Application Development/Maintenance Officer",
         company: "State Street",
@@ -262,4 +261,4 @@ const projects = [
     },
 ];
 
-export { talents, technologies, experiences, testimonials, projects };
+export { experiences, projects, talents, technologies, testimonials };
