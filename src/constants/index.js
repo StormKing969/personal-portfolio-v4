@@ -114,11 +114,13 @@ const experiences = [
         iconBg: "#00478C",
         date: "May 2022 - Present",
         points: [
-            "Create new components for a company application called NGSPA.",
-            "Create and modify SQL queries based on the backend requirements.",
-            "Optimize existing code.",
-            "Organize and run sport events like a soccer league as part of the JumpStart Sport Committee.",
-            "Review and approve code changes made by other developer in the team.",
+            "Design and implement new UI components for various company applications in accordance with company requirements.",
+            "Develop and adjust SQL queries according to backend requirements.",
+            "Enhance and resolve issues within the existing codebase.",
+            "Develop new batch processes and scripts to meet the evolving business requirements.",
+            "Integrate new technologies into existing functionalities within the company’s applications.",
+            "Coordinate and manage sports events, such as a soccer league, as part of the JumpStart Sport Committee.",
+            "Evaluate and authorize code modifications submitted by team developers.",
         ],
     },
     {
