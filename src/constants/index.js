@@ -114,13 +114,10 @@ const experiences = [
         iconBg: "#00478C",
         date: "May 2022 - Present",
         points: [
-            "Design and implement new UI components for various company applications in accordance with company requirements.",
-            "Develop and adjust SQL queries according to backend requirements.",
-            "Enhance and resolve issues within the existing codebase.",
-            "Develop new batch processes and scripts to meet the evolving business requirements.",
-            "Integrate new technologies into existing functionalities within the company’s applications.",
-            "Coordinate and manage sports events, such as a soccer league, as part of the JumpStart Sport Committee.",
-            "Evaluate and authorize code modifications submitted by team developers.",
+            "Work cross-functionally to transform the company infrastructure by designing and implementing new UI components for various company applications.",
+            "Enhance crucial assurance by validating access and authentication APIs in the environment to minimize unwanted access and secure protection against potential bad actors.",
+            "Review, evaluate, and authorize code modifications submitted by team developers.",
+            "Continuously assess the backwards compatibility (i.e., integrating new features into existing technologies) to help understand the decision to drive system transformation.",
         ],
     },
     {
@@ -130,10 +127,10 @@ const experiences = [
         iconBg: "#FFF",
         date: "June 2020 - April 2022",
         points: [
-            "Responsible for overseeing and ensuring finances at the end of the day is tallied correctly and the amount registered is accounted for by balancing the cash till.",
-            "Entrusted with supervision of the store in case of store manager absence for smooth and streamlined operations.",
-            "Address in a timely manner customer issues and complaints according to company policies.",
-            "Delegate responsibilities and manage multiple schedules / shifts to ensure proper functioning of the store and account for manpower needed.",
+            "Oversaw operations to ensure the financial integrity of the store was maintained daily.",
+            "Proactively evaluated staffing, inventory, and customer satisfaction for enhanced and streamlined operations.",
+            "Problem solved (as needed) with the team to address customer issues and complaints according to company policies.",
+            "Encouraged team bonding and listened to employees on shift to align personal expectations with company objectives.",
         ],
     },
     {
@@ -143,11 +140,10 @@ const experiences = [
         iconBg: "#0693E3",
         date: "January 2020 - May 2020",
         points: [
-            "Researched and designed an interface appropriate for medical uses based on the needs of the client.",
-            "Connected the AI to a search bar implemented on the website.",
-            "Assigned tasks to other members.",
-            "Set up client meetings & group meetings.",
-            "Created and presented the documentation that recorded our progress and final product to all involved parties.",
+            "Responsible for presenting a proposal to modernize the IT infrastructure supporting medical usage metrics.",
+            "Collaborated with the team and client for a needs assessment and walkthrough required access controls when updating the system to decrease inefficiency.",
+            "Optimized system through connecting AI to a search bar implemented on the website.",
+            "Through effective delegation, led the project to completion and produced a high-quality final proposal, including a comprehensive report and prototype demonstration, to stakeholders for approval and potential implementation.",
         ],
     },
     {
